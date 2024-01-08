@@ -173,6 +173,8 @@ header p{
     font-weight: 700;
 }
 .contains-section-two{
+    max-width: 708px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     background-color: var(--colorwhite-);
@@ -183,9 +185,10 @@ header p{
 }
 .iten-contains-section-two{
     display: flex;
+    text-align: center;
     flex-direction: row;
     align-items: center;
-
+    
     gap: 1rem;
 }
 .iten-contains-section-two span{
@@ -193,6 +196,7 @@ header p{
     font-size: 3rem;
 }
 .iten-contains-section-two-text{
+
     font-size: 1.6rem;
     font-weight: 700;
     color: var(--colorblack-);
