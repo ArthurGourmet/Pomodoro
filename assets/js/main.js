@@ -48,7 +48,6 @@ pause.addEventListener('click', function (e){
 })
 retorna.addEventListener('click', function (e){
     clearInterval(time)
-    mostra()
     relogio.innerHTML= '25:00'
     relogio.classList.remove('red')
     relogio.classList.add('blue')
